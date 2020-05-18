@@ -1,0 +1,7 @@
+c:\users\sonam\documents\visual studio 2013\Projects\Ecommerce Web App\Ecommerce Web App\bin\Ecommerce Web App.dll.config
+c:\users\sonam\documents\visual studio 2013\Projects\Ecommerce Web App\Ecommerce Web App\bin\Ecommerce Web App.dll
+c:\users\sonam\documents\visual studio 2013\Projects\Ecommerce Web App\Ecommerce Web App\bin\Ecommerce Web App.pdb
+c:\users\sonam\documents\visual studio 2013\Projects\Ecommerce Web App\Ecommerce Web App\obj\Debug\Ecommerce Web App.csprojResolveAssemblyReference.cache
+c:\users\sonam\documents\visual studio 2013\Projects\Ecommerce Web App\Ecommerce Web App\obj\Debug\Ecommerce Web App.dll
+c:\users\sonam\documents\visual studio 2013\Projects\Ecommerce Web App\Ecommerce Web App\obj\Debug\Ecommerce Web App.pdb
+C:\Users\Sonam\Documents\Visual Studio 2013\Projects\Ecommerce Web App\Ecommerce Web App\bin\MySql.Data.dll
