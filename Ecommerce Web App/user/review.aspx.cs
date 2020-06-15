@@ -31,7 +31,7 @@ namespace Ecommerce_Web_App.user
                 cn.Open();
                 MySqlCommand cmd2 = cn.CreateCommand();
                 cmd2.CommandType = CommandType.Text;
-                cmd2.CommandText = "select fname from orders where id=?id";
+                cmd2.CommandText = "select fname from orders where id=(select order_id from order_details where id=?id)";
                 cmd2.Parameters.Add(new MySqlParameter("id", id));
                 cmd2.ExecuteNonQuery();
                 DataTable dt2 = new DataTable();

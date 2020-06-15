@@ -39,7 +39,7 @@ namespace Ecommerce_Web_App.user
                     d1.DataBind();
                     MySqlCommand cmd1 = cn.CreateCommand();
                     cmd1.CommandType = CommandType.Text;
-                    cmd1.CommandText = "select r.name,r.review from review_product as r inner join order_details as o ON r.order_id=o.order_id where o.product_name=(select product_name from product where id=?id)";
+                    cmd1.CommandText = "select r.name,r.review from review_product as r inner join order_details as o ON r.order_id=o.id where o.product_name=(select product_name from product where id=?id)";
                     cmd1.Parameters.Add(new MySqlParameter("id", id));
                     cmd1.ExecuteNonQuery();
                     DataTable dt1 = new DataTable();
@@ -93,6 +93,7 @@ namespace Ecommerce_Web_App.user
                     product_qty = dr["product_qty"].ToString();
                     product_images = dr["product_images"].ToString();
                 }
+                
                 if (Convert.ToInt32(t1.Text) > Convert.ToInt32(product_qty))
                 {
                     l1.Text = "Please Enter Lower Quantity";

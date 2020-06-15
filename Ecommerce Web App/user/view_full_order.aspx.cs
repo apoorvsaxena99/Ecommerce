@@ -28,10 +28,10 @@ namespace Ecommerce_Web_App.user
                     cn.Open();
                     /*MySqlCommand cmd2 = cn.CreateCommand();
                     cmd2.CommandType = CommandType.Text;
-                    cmd2.CommandText = "select order_id from review_product where order_id=?id";
+                    cmd2.CommandText = "select order_id from review_product where order_id=(select id from order_details where order_id=?id)";
                     cmd2.Parameters.Add(new MySqlParameter("id", id));
                     MySqlDataReader dr1 = cmd2.ExecuteReader();
-                    /*if (dr1.Read())
+                    if (dr1.Read())
                     {
                         
                     }*/

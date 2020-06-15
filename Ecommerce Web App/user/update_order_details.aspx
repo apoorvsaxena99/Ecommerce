@@ -27,7 +27,8 @@
     </tr>
     <tr>
         <td colspan="2" align="center">
-            <asp:Button ID="b1" OnClick="b1_Click" runat="server" Text="Update And Continue" />
+            <asp:Button ID="b1" OnClick="b1_Click" runat="server" Text="Update And Continue" CssClass="search-submit" style="    width: 190px;
+    margin-left: 98px;" />
             </td>
     </tr>
     <tr>

@@ -76,7 +76,8 @@ namespace Ecommerce_Web_App.user
                 mobile.Text = "";
                 Label1.Text = "Registration Successfully Saved";
             }
-
+            ScriptManager.RegisterClientScriptBlock(Page, typeof(string), "update", "Show();", true);
+            Response.Redirect("Login.aspx");
         }
     }
 }

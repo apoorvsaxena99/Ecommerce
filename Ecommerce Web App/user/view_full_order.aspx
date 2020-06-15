@@ -49,7 +49,7 @@
                 <td><%#Eval("product_name")%></td>
                 <td><%#Eval("product_price")%></td>
                 <td><%#Eval("product_qty")%></td>
-                <td><a href="review.aspx?id=<%#Eval("order_id")%>">Review</a></td>
+                <td><a href="review.aspx?id=<%#Eval("id")%>">Review</a></td>
                 </tr>
         </ItemTemplate>
         <FooterTemplate>

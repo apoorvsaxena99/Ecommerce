@@ -33,7 +33,9 @@
         </asp:DataList>
         <br />
         <p align="center"></p>
-        <asp:Label runat="server" ID="l1"></asp:Label>
-        <asp:button runat="server" Text="Checkout" ID="b1" OnClick="b1_Click"/>
+        <asp:Label runat="server" ID="l1" style="font-size:25px;font-family:'Arial Rounded MT'"></asp:Label>
+        <asp:button runat="server" Text="Checkout" ID="b1" OnClick="b1_Click" CssClass="search-submit" style="    width: 201px;
+    height: 50px;
+    font-size: 20px;"/>
     </div>
     </asp:Content>

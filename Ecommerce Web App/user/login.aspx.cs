@@ -65,5 +65,10 @@ namespace Ecommerce_Web_App.user
         {
             Response.Redirect("Registration.aspx");
         }
+
+        protected void SignUp_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Registration.aspx");
+        }
     }
 }
